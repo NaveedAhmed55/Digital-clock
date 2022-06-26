@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #2f4f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digital-clock {
+  width: 40%;
+  height: 70%;
+}
+.digital-clock .heading {
+  background-color: rgb(231, 65, 65);
+  width: 40%;
+  height: 40%;
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: auto auto;
+  margin-bottom: 5%;
+}
+.digital-clock .clock {
+  width: 100%;
+  height: 50%;
+  background-image: linear-gradient(
+    to right,
+    rgb(150, 100, 0),
+    rgb(255, 0, 1),
+    rgb(255, 0, 100)
+  );
+  display: flex;
+}
+.box {
+  width: 20%;
+  height: 25%;
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: rgb(124, 157, 157);
+  margin: auto auto;
+  color: white;
+}
+span,
+.session {
+  font-size: 3rem;
+  margin: auto auto;
+  color: white;
+}
+.heading {
+  margin: 0%;
+  background-color: #2f4f4f;
+}
